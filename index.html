@@ -4,7 +4,7 @@
   <title>Trailer Registration Search</title>
   <link rel="stylesheet" href="app.css">
   <style>
-    /* Updated border style for .navbar */
+    
     .navbar {
       background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), 
         linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
@@ -37,8 +37,10 @@
     <div class="container">
       <h1 class="hero-title">Trailer Registration Search</h1>
       <div class="search-container">
-        <input type="text" class="search-input" placeholder="Enter Trailer Number">
-        <button class="search-button">Search</button>
+        <form id="search-form">
+          <input type="text" class="search-input" placeholder="Enter Trailer Number">
+          <button type="submit" class="search-button">Search</button>
+        </form>
       </div>
     </div>
   </section>
