@@ -43,7 +43,7 @@ body {
 
 /* Hero section styles */
 .hero {
-  background-color: rgb(180, 12, 12);
+  background-color: rgb(208, 22, 59);
   padding: 40px 0;
   text-align: center;
 }
@@ -110,5 +110,22 @@ body {
 
 .image-container {
   margin-top: 10px;
+  display: flex; /* Add flex display */
+  justify-content: center; /* Center the images horizontally */
 }
 
+.image-container img {
+  width: 100%; /* Set width to 45% for the left and right images */
+  margin: 5px; /* Add spacing between images */
+}
+
+.image-container .second-image {
+  width: 100%; /* Set width to 100% for the second image */
+  margin-top: 5px; /* Add spacing between the first/second and third images */
+}
+
+/* Height adjustment */
+.adjust-height {
+  max-height: 10px; /* Adjust the max-height as needed */
+  object-fit: contain;
+}
